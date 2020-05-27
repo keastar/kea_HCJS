@@ -1,0 +1,116 @@
+*{
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body{
+	margin: 0 auto;
+	width: 1070px;
+	margin-top: -1px;
+	padding-top: 1px;
+}
+
+main{
+	margin: 0 0 40px 0;
+}
+
+nav{
+	background-color: plum;
+	width: 100%;
+}
+
+nav ul{
+	padding: 0;
+}
+
+nav ul li{
+	padding: 0px 32px;
+	margin: 10px auto;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	background-image: url(images/neonovyj-svet.svg);
+	padding: 30px 0;
+	width: 1070px;
+}
+
+h2{
+	margin: 40px auto 15px;
+}
+
+.mainlink{
+	padding: 0 0 0 32px;
+	margin: 10px auto;
+}
+
+.mainlink a{
+	color: white;
+}
+
+.top_int{
+	margin-top: 40px;
+}
+
+.h1Planets{
+	color: white;
+	font-style: normal;
+}
+
+a{
+	color: violet;
+	text-decoration: none;
+	padding: 0;
+}
+
+p{
+	text-align: justify;
+}
+
+.block{
+	width: 100%;
+}
+
+.block img{
+	width: 100px;
+	vertical-align: middle;
+}
+
+.block p{
+	width: 90%;
+	padding: 0 0 0 20px;
+	vertical-align: middle;
+}
+
+.bottom {
+	background-image: url(images/neonovyj-svet.svg);
+	width: 100%;
+}
+
+.bottom p {
+
+	color: white;
+	margin: 30px 250px;
+}
+
+.ch_l {
+	border: 1px solid black;
+}
+
+.ch_l tr {
+	border: 1px solid black;
+}
+
+.term_design{
+	background-color: #FFCCCC;
+	margin: 10px 0 5px 0;
+}
