@@ -5,38 +5,34 @@
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-body{
+.box{
 	margin: 0 auto;
 	width: 1070px;
 	margin-top: -1px;
 	padding-top: 1px;
 }
 
-main{
-	margin: 0 0 40px 0;
-}
-
-nav{
+.menu_decor{
 	background-color: plum;
 	width: 100%;
 }
 
-nav ul{
+.menu_decor ul{
 	padding: 0;
 }
 
-nav ul li{
+.menu_decor ul li{
 	padding: 0px 32px;
 	margin: 10px auto;
 }
 
-nav ul li a{
+.menu_decor ul li a{
 	color: white;
 	font-size: 20px;
 	text-decoration: none;
 }
 
-h1{
+.titlename_page{
 	text-align: center;
 	color: white;
 	background-image: url(images/neonovyj-svet.svg);
@@ -44,7 +40,7 @@ h1{
 	width: 1070px;
 }
 
-h2{
+.titlename_block{
 	margin: 40px auto 15px;
 }
 
@@ -72,7 +68,7 @@ a{
 	padding: 0;
 }
 
-p{
+.justufy{
 	text-align: justify;
 }
 
@@ -93,13 +89,13 @@ p{
 
 .bottom {
 	background-image: url(images/neonovyj-svet.svg);
-	width: 100%;
+	margin: 40px 0 0 0;
 }
 
 .bottom p {
 
 	color: white;
-	margin: 30px 250px;
+	margin: 40px 250px;
 }
 
 .ch_l {
