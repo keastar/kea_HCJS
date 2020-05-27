@@ -1,101 +1,115 @@
-*{
-	display: inline-block;
+* {
 	box-sizing: border-box;
 	margin: 0;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-.box{
+.box {
 	margin: 0 auto;
 	width: 1070px;
 	margin-top: -1px;
 	padding-top: 1px;
 }
 
-.menu_decor{
+.menu_decor {
 	background-color: plum;
 	width: 100%;
 }
 
-.menu_decor ul{
+.menu_decor ul {
 	padding: 0;
+	list-style: none;
 }
 
-.menu_decor ul li{
-	padding: 0px 32px;
-	margin: 10px auto;
+.menu_decor ul li {
+	display: inline-block;
 }
 
-.menu_decor ul li a{
+.menu_decor ul li a {
+	display: inline-block;
 	color: white;
 	font-size: 20px;
+	padding: 15px 20px;
 	text-decoration: none;
 }
+.menu_decor ul li a:hover {
+	background: aqua;
+}
 
-.titlename_page{
+.titlename_page {
 	text-align: center;
 	color: white;
-	background-image: url(images/neonovyj-svet.svg);
+	background-image: url("images/neonovyj-svet.svg");
 	padding: 30px 0;
 	width: 1070px;
 }
 
-.titlename_block{
+.titlename_block {
 	margin: 40px auto 15px;
 }
 
-.mainlink{
+.mainlink {
 	padding: 0 0 0 32px;
 	margin: 10px auto;
 }
 
-.mainlink a{
+.mainlink a {
 	color: white;
 }
 
-.top_int{
+.top_int {
 	margin-top: 40px;
 }
 
-.h1Planets{
+.h1Planets {
 	color: white;
 	font-style: normal;
 }
 
-a{
+a {
 	color: violet;
 	text-decoration: none;
 	padding: 0;
 }
 
-.justufy{
+.justufy {
 	text-align: justify;
 }
 
-.block{
-	width: 100%;
+.post {
+	margin-bottom: 15px;
 }
 
-.block img{
+.post_header {
+	color: violet;
+	text-decoration: none;
+	padding: 0;
+	margin: 40px 0 20px 0;
+}
+
+.post_content > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.post_content .post_img{
 	width: 100px;
-	vertical-align: middle;
+	padding-right: 15px;
 }
 
-.block p{
-	width: 90%;
-	padding: 0 0 0 20px;
-	vertical-align: middle;
+.post_content .post_cont_text{
+	width: 85%;
 }
 
 .bottom {
-	background-image: url(images/neonovyj-svet.svg);
-	margin: 40px 0 0 0;
+	background-image: url("images/neonovyj-svet.svg");
+	margin: 40px auto 0px;
 }
 
-.bottom p {
-
+.bottom div {
+	text-align: center;
 	color: white;
-	margin: 40px 250px;
+	padding: 40px 0;
 }
 
 .ch_l {
@@ -106,7 +120,7 @@ a{
 	border: 1px solid black;
 }
 
-.term_design{
+.term_design {
 	background-color: #FFCCCC;
 	margin: 10px 0 5px 0;
 }
